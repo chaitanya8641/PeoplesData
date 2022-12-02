@@ -1,0 +1,207 @@
+:root {
+  --maroon: #8f0052;
+  --blue: #068cd0;
+  --green: #7fb63b;
+  --turquoise: #00b79e;
+  --red: #d81d40;
+  --cancel-grey: #e0e0e0;
+  --hover-grey: #323135;
+}
+
+html {
+  font-family: "Rubik", sans-serif !important;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+table, th {
+  border: 0 !important;
+}
+
+.page-heading {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.container-view {
+  margin: auto 0;
+  padding: 20px 5%;
+}
+
+.actions-container {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.actions-container p {
+  cursor: pointer;
+  color: #5da8dc;
+}
+
+.actions-container p:hover {
+  color: #85b7fa;
+  text-decoration: underline;
+}
+
+.actions-container-delete{ 
+  color: var(--red) !important;
+}
+
+.actions-container-delete:hover {
+  color: #ee3f65 !important;
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  z-index: 999;
+}
+
+.custom-floatRight {
+  float: right !important;
+}
+
+.form-buttons {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table td,
+.table tr,
+.table th {
+  border: 1px solid rgba(161, 20, 20, 0.534);
+}
+
+.table td {
+  border: 0 !important;
+}
+
+.table th:before {
+  content: " ";
+  border: 0.5px solid #ccc;
+  width: 99.7%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.table th:after {
+  content: " ";
+  border: 0.5px solid #ccc;
+  width: 99.7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.table td {
+  padding: 15px;
+}
+
+.table-button-tray {
+  padding: 15px 0px 20px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-button {
+  margin: 5px;
+}
+
+.button  {
+  margin: 5px !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  font-size: 0.8em !important;
+}
+
+.cancel-button  {
+  margin: 5px !important;
+  text-transform: uppercase !important;
+  font-size: 0.8em !important;
+}
+
+.button:hover  {
+  background-color: var(--hover-grey) !important;
+}
+
+.maroon {
+  background-color: var(--maroon) !important;
+}
+
+.blue {
+  background-color: var(--blue) !important;
+}
+
+.turquoise {
+  background-color: var(--turquoise) !important;
+}
+
+.green {
+  background-color: var(--green) !important;
+}
+
+.cancel {
+  background-color: var(--cancel-grey) !important;
+}
+
+.MuiGrid-grid-md-6,
+.MuiGrid-grid-sm-6,
+.MuiGrid-grid-lg-6,
+.MuiGrid-grid-xs-6,
+.MuiGrid-grid-md-12,
+.MuiGrid-grid-sm-12,
+.MuiGrid-grid-lg-12,
+.MuiGrid-grid-xs-12,
+.MuiGrid-grid-md-4,
+.MuiGrid-grid-sm-4,
+.MuiGrid-grid-lg-4,
+.MuiGrid-grid-xs-4 {
+  padding: 0 15px 0 0;
+}
+.MuiGrid-spacing-xs-3 {
+  width: 100% !important;
+}
+
+.custom-marginTop30 {
+  margin-top: 30px !important;
+}
+
+@media (min-width: 600px) {
+  .MuiToolbar-regular {
+    min-height: 64px;
+  }
+}
+
+.table .Component-horizontalScrollContainer-12 {
+  border: 1px solid transparent;
+}
+
+.MuiPopover-paper {
+  max-height: 30vh !important;
+  max-width: 50vw !important;
+}
+
+.custom-container{
+  margin: 50px;
+  border: 1px black;
+  padding: 20px;
+}
